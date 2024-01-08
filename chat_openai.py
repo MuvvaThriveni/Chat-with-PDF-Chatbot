@@ -30,7 +30,7 @@ openai.api_key = os.environ['OPENAI_API_KEY']
 
 home_title="Chat with your PDF 🦜📄"
 st.markdown(f"""# {home_title} <span style=color:#2E9BF5><font size=4>Beta</font></span>""",unsafe_allow_html=True)
-st.caption("🚀 A streamlit chatbot powered by GPT LLM to talk with PDF 📄")
+st.caption(" A streamlit chatbot powered by GPT LLM to talk with PDF 🤖")
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
